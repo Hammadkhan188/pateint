@@ -38,6 +38,7 @@ export default function Showdata() {
                                     <th>Phone</th>
                                     <th>Address</th>
                                     <th>Gender</th>
+                                    <th>Age</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -48,6 +49,7 @@ export default function Showdata() {
                                         <td>{a.phone}</td>
                                         <td>{a.address}</td>
                                         <td>{a.gender}</td>
+                                        <td>{a.age}</td>
                                     </tr>
                                 ))}
                             </tbody>
